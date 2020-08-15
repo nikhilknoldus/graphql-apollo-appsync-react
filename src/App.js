@@ -41,7 +41,6 @@ export default compose(
 			fetchPolicy: "cache-and-network",
 		},
 		props: (props) => ({
-			abdulsData: props.data,
 			fmPple: props.data.listPeople ? props.data.listPeople.items : [],
 		}),
 	})
